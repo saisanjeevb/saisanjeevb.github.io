@@ -1,6 +1,6 @@
 title: " "
 description: PhD Student in Mathematics
-url: https://saisanjeev.github.io
+url: https://saisanjeevb.github.io
 baseurl: ""
 
 # Theme
@@ -59,4 +59,4 @@ highlighter: rouge
 kramdown:
   math_engine: mathjax
 
-repository: "saisanjeev2001/saisanjeev.github.io"
+repository: "saisanjeevb/saisanjeevb.github.io"
