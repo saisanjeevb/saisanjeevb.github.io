@@ -1,9 +1,8 @@
 ---
-layout: single
+layout: home
 title: About
 permalink: /
 author_profile: true
-classes: wide
 ---
 
 I am a second year PhD student in mathematics at the University of California, Berkeley. My advisor is
