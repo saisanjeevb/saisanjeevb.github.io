@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: index
 title: About
 permalink: /
 author_profile: true
