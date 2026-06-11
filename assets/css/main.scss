@@ -190,11 +190,14 @@ body.light-mode {
   flex-wrap: nowrap !important;
 }
 
-.sidebar.sticky {
-  min-width: 220px !important;
-  width: 220px !important;
-  float: none !important;
-  padding-right: 1em !important;
+/* Apply desktop-specific sticky layouts ONLY on screens wider than 1024px */
+@media (min-width: 1024px) {
+  .sidebar.sticky {
+    min-width: 220px !important;
+    width: 220px !important;
+    float: none !important;
+    padding-right: 1em !important;
+  }
 }
 
 .page {
