@@ -126,14 +126,6 @@ img.u-photo {
   margin-bottom: 70px !important;
 }
 /* Collapse the hidden text margins blowing up the footer vertically */
-.page__footer p, 
-.page__footer div,
-.page__footer span {
-  margin-top: 0 !important;
-  margin-bottom: 0 !important;
-  padding-top: 2px !important;
-  padding-bottom: 2px !important;
-}
 .page__title { color: #d0eef8 !important; }
 p { color: #d0eef8 !important; }
 a { color: #90cce8 !important; &:hover { color: #d0eef8 !important; } }
@@ -361,18 +353,23 @@ body.light-mode {
   }
 }
 
-/* Deflate the core theme wrapper spacing for the footer */
+/* ── ONE-SHOT FOOTER RESET ── */
+/* 1. Reset all container layers to absolute zero padding */
+.page__footer, 
+.page__footer footer, 
 .page__footer-content {
   padding: 0 !important;
   margin: 0 !important;
 }
-/* Evenly balance the footer padding for a clean, low-profile look */
+
+/* 2. Control the gap above the entire footer bar */
 .page__footer {
-  padding: 15px 0 !important;
-  margin-top: 2em !important;
+  margin-top: 3em !important; 
 }
-.page__footer footer {
-  margin-top: 1em !important;     /* Creates a clean gap between your page content and the footer */
-  padding-top: 0.6em !important;  /* Adds a subtle, elegant cushion above your text */
-  padding-bottom: 0.6em !important;/* Adds the exact same matching cushion below your text */
+
+/* 3. Force perfect, narrow, symmetrical padding directly on the text block */
+.page__footer p {
+  margin: 0 !important;
+  padding-top: 12px !important;   /* Clean, tight breathing room on top */
+  padding-bottom: 12px !important;/* Identical, balanced breathing room on bottom */
 }
