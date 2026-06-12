@@ -125,10 +125,16 @@ img.u-photo {
   height: 150px !important;
   margin-bottom: 70px !important;
 }
-/* Tighten the footer width globally */
+/* Trim footer vertical empty space to a minimum */
 .page__footer {
-  max-width: 800px !important;
-  margin: 0 auto !important;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
+
+.page__footer-follow, 
+.page__footer-copyright {
+  margin: 0 !important;
+  line-height: 1.2 !important;
 }
 .page__title { color: #d0eef8 !important; }
 p { color: #d0eef8 !important; }
