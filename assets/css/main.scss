@@ -125,22 +125,14 @@ img.u-photo {
   height: 150px !important;
   margin-bottom: 70px !important;
 }
-/* Trim footer vertical empty space to a minimum */
-/* Eliminate excessive vertical blank space above the footer */
-#main {
-  margin-bottom: 0 !important;
-  padding-bottom: 0 !important;
-}
-
-.page__inner-wrap {
-  margin-bottom: 0 !important;
-  padding-bottom: 0 !important;
-}
-
-.page__footer {
+/* Collapse the hidden text margins blowing up the footer vertically */
+.page__footer p, 
+.page__footer div,
+.page__footer span {
   margin-top: 0 !important;
-  padding-top: 10px !important;
-  padding-bottom: 10px !important;
+  margin-bottom: 0 !important;
+  padding-top: 2px !important;
+  padding-bottom: 2px !important;
 }
 .page__title { color: #d0eef8 !important; }
 p { color: #d0eef8 !important; }
