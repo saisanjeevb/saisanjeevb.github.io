@@ -369,9 +369,10 @@ body.light-mode {
   margin-bottom: 0 !important;
 }
 
-/* Deflate the nested footer padding and margins entirely */
+/* Evenly balance the footer padding for a clean, low-profile look */
 .page__footer, 
 .page__footer footer {
-  margin-top: 0 !important;
-  padding-bottom: 0 !important;
+  margin-top: 1em !important;     /* Creates a clean gap between your page content and the footer */
+  padding-top: 0.6em !important;  /* Adds a subtle, elegant cushion above your text */
+  padding-bottom: 0.6em !important;/* Adds the exact same matching cushion below your text */
 }
