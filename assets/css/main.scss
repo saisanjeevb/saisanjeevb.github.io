@@ -363,14 +363,14 @@ body.light-mode {
 
 /* Deflate the core theme wrapper spacing for the footer */
 .page__footer-content {
-  padding-top: 0 !important;
-  padding-bottom: 0 !important;
-  margin-top: 0 !important;
-  margin-bottom: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
 }
-
 /* Evenly balance the footer padding for a clean, low-profile look */
-.page__footer, 
+.page__footer {
+  padding: 15px 0 !important;
+  margin-top: 2em !important;
+}
 .page__footer footer {
   margin-top: 1em !important;     /* Creates a clean gap between your page content and the footer */
   padding-top: 0.6em !important;  /* Adds a subtle, elegant cushion above your text */
