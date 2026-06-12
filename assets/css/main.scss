@@ -125,7 +125,11 @@ img.u-photo {
   height: 150px !important;
   margin-bottom: 70px !important;
 }
-
+/* Tighten the footer width globally */
+.page__footer {
+  max-width: 800px !important;
+  margin: 0 auto !important;
+}
 .page__title { color: #d0eef8 !important; }
 p { color: #d0eef8 !important; }
 a { color: #90cce8 !important; &:hover { color: #d0eef8 !important; } }
@@ -217,17 +221,17 @@ body.light-mode {
   }
 
   // Photo becomes small circle on mobile
-  .author__avatar,
+.author__avatar,
   .author__avatar a,
   .author__avatar img,
   .author__avatar > a > img {
-    width: 140px !important;
-    height: 210px !important;
+    width: 70px !important;
+    height: 105px !important;       /* 👈 Scaled to match your 2:3 desktop portrait ratio */
     max-width: 70px !important;
-    max-height: 70px !important;
+    max-height: 105px !important;
     min-width: 70px !important;
-    min-height: 70px !important;
-    border-radius: 8px !important;
+    min-height: 105px !important;
+    border-radius: 8px !important;    /* 👈 Matches your desktop 8px rounded corners */
     object-fit: cover !important;
     object-position: center top !important;
     margin-bottom: 0 !important;
