@@ -360,3 +360,11 @@ body.light-mode {
     border-bottom: 1px solid #c0e4f4 !important;
   }
 }
+
+/* Deflate the core theme wrapper spacing for the footer */
+.page__footer-content {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
