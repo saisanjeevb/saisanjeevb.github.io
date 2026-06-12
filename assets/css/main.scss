@@ -368,3 +368,10 @@ body.light-mode {
   margin-top: 0 !important;
   margin-bottom: 0 !important;
 }
+
+/* Deflate the nested footer padding and margins entirely */
+.page__footer, 
+.page__footer footer {
+  margin-top: 0 !important;
+  padding-bottom: 0 !important;
+}
